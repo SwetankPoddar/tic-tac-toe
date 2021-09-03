@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+#information_box {
+    margin-bottom: 2em;
+}
+
+#reset_button {
+    margin-top: 2em;
+}
+
+.box {
+    
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2em;
+}
